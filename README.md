@@ -4,7 +4,7 @@ This code repository provides the code to run the PKRNN-2CM, an autoregressive r
 
 ## Overview
 
-The PKRNN-2CM model integrates an RNN for predicting PK parameters and a 2CM PK model for concentration calculation. This model has been developed using time series EHR data from a cohort of 5,483 patients.
+The PKRNN-2CM model integrates an RNN for PK parameter estimation and a 2CM PK model for generating concentration trajectory. This model has been developed using time series EHR data from a cohort of 5,483 patients.
 
 <img src="PKRNN-2CM model architecture.png"/> <br>
 
