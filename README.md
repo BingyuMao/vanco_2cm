@@ -18,7 +18,7 @@ for more details.
 
 ### Data
 
-We won't provide the original dataset we used to develop the PKRNN-2CM model, but an example of the input data can be found here: [sample_data.pkl](https://github.com/ZhiGroup/PK-RNN/blob/main/sample_data.pkl). You may also refer to the [main branch](https://github.com/ZhiGroup/PK-RNN) for more details about the input data.
+We won't provide the original dataset we used to develop the PKRNN-2CM model, but an example of the input data can be found here: [sample_data.pkl](https://github.com/ZhiGroup/PK-RNN/blob/main/sample_data.pkl). You may also refer to the [main branch](https://github.com/ZhiGroup/PK-RNN) for more details about the data format of the model input.
 
 ### Requirements
 
@@ -28,3 +28,19 @@ We won't provide the original dataset we used to develop the PKRNN-2CM model, bu
 ### Model training and evaluation
 
 Please follow the steps in the notebook [main.ipynb](https://github.com/BingyuMao/vanco_2cm/blob/main/main.ipynb) to run the PKRNN-2CM model. This notebook also includes the steps for model evaluation.
+
+## Results
+
+<img src="Results.PNG"/> <be>
+
+This figure shows the results of time-concentration curves for one sample patient. The top panel showcases a patient for whom the PKRNN-2CM model, when utilizing real data, outperformed the PKRNN-1CM model (PKRNN-1CM RMSE: 27.18; PKRNN-2CM RMSE: 21.32). Conversely, in the bottom panel, it is evident that the inference PKRNN-2CM model captured most of the simulated observations, whereas the inference PKRNN-1CM model missed over half of them, with consistent RMSEs (PKRNN-1CM: 17.54; PKRNN-2CM: 15.20). Please refer to our paper for more details.
+
+## Contact
+
+Please post a GitHub issue if you have any questions.
+
+## Citation
+
+Please acknowledge the following work in papers or derivative software:
+
+Bingyu Mao, Ziqian Xie, Masayuki Nigo, Laila Rasmy, and Degui Zhi. "A deep-learning-based two-compartment predictive model (PKRNN-2CM) for vancomycin therapeutic drug monitoring."
