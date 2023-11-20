@@ -18,4 +18,4 @@ for more details.
 
 ### Data
 
-We won't provide the original dataset we used to develop the PKRNN-2CM model, but an example of the input data can be found here: [sample_data](https://github.com/ZhiGroup/PK-RNN/blob/main/sample_data.pkl). You may also refer to the [main branch](https://github.com/ZhiGroup/PK-RNN) for more details about the input data.
+We won't provide the original dataset we used to develop the PKRNN-2CM model, but an example of the input data can be found here: [sample_data.pkl](https://github.com/ZhiGroup/PK-RNN/blob/main/sample_data.pkl). You may also refer to the [main branch](https://github.com/ZhiGroup/PK-RNN) for more details about the input data.
