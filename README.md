@@ -33,7 +33,7 @@ Please follow the steps in the notebook [main.ipynb](https://github.com/BingyuMa
 
 <img src="Results.PNG"/> <be>
 
-This figure shows the results of time-concentration curves for one sample patient. The top panel showcases a patient for whom the PKRNN-2CM model, when utilizing real data, outperformed the PKRNN-1CM model (PKRNN-1CM RMSE: 27.18; PKRNN-2CM RMSE: 21.32). Conversely, in the bottom panel, it is evident that the inference PKRNN-2CM model captured most of the simulated observations, whereas the inference PKRNN-1CM model missed over half of them, with consistent RMSEs (PKRNN-1CM: 17.54; PKRNN-2CM: 15.20). Please refer to our paper for more details.
+This figure shows the results of time-concentration curves for one sample patient. The top panel showcases a patient for whom the PKRNN-2CM model, when utilizing real data, outperformed the PKRNN-1CM model (PKRNN-1CM RMSE: 27.18; PKRNN-2CM RMSE: 21.32). In the bottom panel, the inference PKRNN-2CM model captured most of the simulated observations, whereas the inference PKRNN-1CM model missed over half of them, with consistent RMSEs (PKRNN-1CM: 17.54; PKRNN-2CM: 15.20). Please refer to our paper for more details.
 
 ## Contact
 
