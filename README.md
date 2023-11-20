@@ -22,8 +22,8 @@ We won't provide the original dataset we used to develop the PKRNN-2CM model, bu
 
 ### Requirements
 
-- Python 3.9;
-- The required Python packages can be installed using `pip install -r requirements.txt`.
+- Python 3.8;
+- Required Python packages can be installed using `pip install -r requirements.txt`.
 
 ### Model training and evaluation
 
